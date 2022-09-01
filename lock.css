@@ -202,19 +202,41 @@ body{
   }
 
 .passbtns{
-    display: flex;
-    width: 100%;
+    width: 200px;
+    height: 100%;
     text-align: center;
     margin: 0 auto;
     color: white;
     position: absolute;
     display: inline-flex;
-    margin-left: -75px;
+    margin-left: -120px;
+    width: 100%;
+    margin-top: 80px;
 }
 
 .btnbtn{
+  margin: 10px;
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  display: flex;
+  padding: 20px;
+  background-color: rgba(160, 163, 160, 0.5);
+  border: 1px solid transparent;
+  width: 20px;
+  height: 20px;
+  text-align: center  ;
+  font-size: 20px;
+}
+
+.test{
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  width: 20px;
+  height: 20px;
+  text-align: center  ;
 }
