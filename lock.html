@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lock.css">
+</head>
+<body>
+    <center>
+
+    <div id="cool" class="lock">
+    
+        <div id="hold4" class="code">
+
+            <img class="locky" src="https://raw.githubusercontent.com/ixl-math/imgs/main/icon.png" alt="">
+
+            <p class="entr">Enter Passcode</p>
+
+            <div class="dots">
+                <span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+
+            <div class="passbtns">
+                <span class="btnbtn">1</span>
+            </div>
+
+            <button onclick="cls()" class="p1">Emergency</button><button onclick="cls()" class="p2">cancel</button>
+        </div>
+
+        <img class="pic" src="https://wallpaperaccess.com/full/4720926.png" alt="">
+        <div id="hold" class="hold">
+
+            
+
+                <p><img class="pic2" src="https://raw.githubusercontent.com/ixl-math/imgs/main/icon.png" alt=""> swipe up to unlock</p>
+            <div id = "clock" onload="currentTime()"></div>
+        <small>Tuesday 30 August</small>
+
+        </div>
+        
+            <button id="hold2" class="button1"></button><button id="hold3" class="button2"></button>
+            <div onclick="code()" class="line"></div>
+    </div>
+</div>
+
+
+<script>
+    function code(){
+        document.getElementById("hold").style.visibility = "hidden"
+        document.getElementById("hold2").style.visibility = "hidden"
+        document.getElementById("hold3").style.visibility = "hidden"
+        document.getElementById("hold4").style.display = "inline"
+    }
+
+    function cls(){
+        document.getElementById("hold").style.visibility = "visible"
+        document.getElementById("hold2").style.visibility = "visible"
+        document.getElementById("hold3").style.visibility = "visible"
+        document.getElementById("hold4").style.display = "none"
+    }
+    
+</script>
+
+    <script>
+        function currentTime() {
+  let date = new Date(); 
+  let hh = date.getHours();
+  let mm = date.getMinutes();
+
+  if(hh === 0){
+      hh = 12;
+  }
+
+   hh = (hh < 10) ? "0" + hh : hh;
+   mm = (mm < 10) ? "0" + mm : mm;
+    
+   let time = hh + ":" + mm ;
+
+  document.getElementById("clock").innerText = time; 
+  let t = setTimeout(function(){ currentTime() }, 1000);
+}
+
+currentTime();
+
+    </script>
+    </center>
+</body>
+</html>
+

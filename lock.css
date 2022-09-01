@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+}
+
+.pic{
+    width: 100%;
+    height: 100%;
+}
+
+.lock{
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+  #clock{
+    font-family: 'San Francisco', Helvetica, Arial;
+    font-size: 100px;
+    color: white;
+  
+  }
+
+  small{
+    font-family: 'San Francisco', Helvetica, Arial;
+    color: white;
+    font-size:18px;
+  }
+
+  .button1{
+    background: rgba(160, 163, 160, 0.5);
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    left: 8%;
+    bottom: 0px;
+    margin-bottom: 7%;
+    border-radius: 100%;
+    background-position: center;
+    transform: rotate(180deg);
+    background-image: url(https://raw.githubusercontent.com/ixl-math/imgs/main/flash-PhotoRoom.png);
+  }
+
+  .button2{
+    background: rgba(160, 163, 160, 0.5);
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    right: 8%;
+    bottom: 0px;
+    margin-bottom: 7%;
+    border-radius: 100%;
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/ixl-math/imgs/main/cam.png);
+  }
+
+  .line{
+    position: absolute; 
+    width: 170px;
+    height: 2px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 10px;
+    bottom: 0px;
+    margin-bottom: 7px;
+    margin-left: 33%;
+  }
+
+  .hold{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: 'San Francisco', Helvetica, Arial;
+    color: white;
+    font-size:18px;
+    position: absolute;
+    top: 0;
+  }
+
+  body{
+    overflow: hidden;
+  }
+
+
+  .code{
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+  text-align: center;
+  color: white;
+  text-align: center;
+  background: rgba(25, 24, 24, 0.5);
+  backdrop-filter: blur(5px) saturate(70%);
+  margin: 0;
+  position: absolute;
+  }
+
+  .pic2{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  .code{
+    display: none;
+  }
+
+  .p1{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    left: 8%;
+    bottom: 0px;
+    margin-bottom: 7%;
+    border-radius: 100%;
+    color: white;
+  }
+
+  .p2{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+    right: 8%;
+    bottom: 0px;
+    margin-bottom: 7%;
+    border-radius: 100%;
+    color: white;
+  }
+
+  .p2:active{
+    color: grey;
+  }
+
+  .p1:active{
+    color: grey;
+  }
+
+  .dots{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    display: inline-flex;
+    margin-left: -75px;
+  }
+
+  .dot{
+    border: 1px white solid;
+    margin:10px;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    background-color: transparent;
+  }
+
+  body{
+    font-family: 'San Francisco', Helvetica, Arial;
+  }
+
+  .entr{
+    font-size: 17px;
+    margin-bottom: 3px;
+    font-weight: 700;
+  }
+
+  .locky{
+    margin-top: 40px;
+    width: 35px;
+    margin-bottom: 22px;
+  }
+
+.passbtns{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    display: inline-flex;
+    margin-left: -75px;
+}
+
+.btnbtn{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+}
